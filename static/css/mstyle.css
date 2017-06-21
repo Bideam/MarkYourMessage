@@ -1,0 +1,235 @@
+ *{
+    	margin: 0;
+    	padding: 0;
+    }
+    html,body{
+    	width: 100%;
+    	height: 100%;
+    }
+	.container{
+		width: 100%;
+		height: 100%;
+
+		
+	}
+	.container div{
+	
+	}
+	.container-left{
+		position: absolute;
+		top: 0;
+		left: 0;
+		
+		width: 300px;
+		height: 100%;
+	
+	}
+	.container-right{
+		margin-left: 300px;
+		height: 100%;
+		
+	}
+	#map{
+		width: 100%;
+		height: 100%;
+	}
+input,textarea,select,button{
+	margin:0em;
+	font: 13.3333px Arial;
+	text-rendering: auto;
+	color: initial;
+	letter-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+}
+.img a form input[type="submit"]{
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	top: 0;
+	left: 0;
+	opacity: 0.5;
+	text-align: center;
+}
+textarea{
+	outline: none;
+	color: #fff;
+	padding: 15px 10px;
+	width: 70%;
+	height: 79px;
+	border:none;
+	border-bottom: 1px solid #DCCBCF;
+	 -webkit-appearance: none;
+    background: transparent;
+    resize: none;
+    font-family: 'Oxygen', sans-serif;
+    margin-bottom: 30px
+
+}
+.left-form-w3-agile{
+	color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+	background: rgba(16,16,16,0.74);
+	width: 100%;
+	height: 100%;
+	
+}
+.left-form-w3-agile .head-part{
+	height: 130px;
+}
+
+.left-form-w3-agile .head-left{
+	width: 33%;
+	height: 100%;
+	float: left;
+
+}
+.form-sub-w3 input[type="text"],input[type="email"]{
+	outline: none;
+	font-size: 13px;
+	color: #ffffff;
+	padding: 15px 10px;
+	width: 70%;
+	border:none;
+	border-bottom: 1px solid #DCCBCF;
+	-webkit-appearance: none;
+    margin-bottom: 30px;
+    margin-left: 3px;
+    background: transparent;
+}
+
+.head-right .name{
+	float: left;
+	margin-top: 90px;
+	margin-left: 50px;
+	color: white;
+	z-index: 9;
+}
+.head-right .person{
+	float: right;
+	margin-right: 40px;
+	margin-top: -70px;
+}
+.person span{
+	margin-left: 74px;
+	cursor: pointer;
+}
+.img{
+	width: 90px;
+	height: 90px;
+	border-radius: 45px;
+	overflow: hidden;
+	display: inline-block;;
+	margin:30px; 
+}
+.img a{
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	border-radius: 45px;
+	top: 30px;
+	overflow: hidden;
+}
+.img a:hover{
+	background: rgba(148, 113, 113, 0.74);
+}
+
+.img input[type="file"]{
+	width: 90px;
+	height: 90px;
+	border-radius: 45px;
+	display: inline-block;
+	opacity: 0;
+	filter:alpha(opacity:0);
+}
+ul{
+	width: 90px;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	border-top: 1px solid #DEE3E6;
+	background: #124211;
+	z-index: 10;
+
+}
+ul li{
+	height: 20px;
+	line-height: 20px;
+	vertical-align: top;
+}
+ul li a{
+	text-decoration: none;
+	display: block;
+	color: #6b7980;
+	background: #e9edf2;
+
+}
+ul li a:hover{
+	background: #ADB9C7;
+}
+img{
+	width: inherit;
+	height: inherit;
+}
+.left-form-w3-agile .head-right{
+	width: 67%;
+	height: 100%;
+	float: left;
+}
+.person{
+
+}
+.upper{
+	margin: 20px;
+}
+
+.form-sub-w3{
+
+}
+.icon-w3{
+	display: inline-block;
+	float: left;
+	line-height: 45px;
+	widows: 18px;
+}
+.icon-w3 i{
+	color: #fff;
+	font-size: 16px;
+}
+.submit-w3l{
+	background:rgb(83,22,30);
+	width: 100%;
+	transition: 0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+}
+.submit-w3l input[type="submit"]{
+	width: 100%;
+	outline: none;
+	display: block;
+	margin: 0 auto;
+	background: url(/static/images/send-mail.png) no-repeat 50% 50%;
+	border: none;
+	cursor: pointer;
+	padding: 25px;
+	background-size: 40px;
+}
+p.my-desc {
+    margin: 5px 0;
+    line-height: 150%;
+}
+button[type="button"]{
+		display: none;
+	}
+
+.hide{
+	opacity: 0;
+}
+#calendar{
+	position: absolute; top: 10%; left: 62%;
+}

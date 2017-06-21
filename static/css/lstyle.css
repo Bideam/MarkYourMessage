@@ -1,0 +1,552 @@
+
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,  ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, nav ul, nav li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+	.main-agileits {
+    	width: 45%;
+    	margin: 30px 50px;
+	}
+	.left-form-w3-agile h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 60px 37px 0;
+}
+input, textarea, keygen, select, button{
+	margin: 0em;
+    font: 13.3333px Arial;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+#img{
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	border-radius: 45px;
+	overflow: hidden;
+	margin: 30px 10px 0 30px;
+}
+img{
+	width: inherit;
+	height: inherit;
+}
+.left-form-w3-agile {
+    width: 45%;
+    float: left;
+    background: rgba(16, 16, 16, 0.74);
+    background-size: cover;
+    -webkit-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+    -moz-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+    box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+}
+.left-form-w3-agile .headpart{
+	height: 130px;
+}
+.left-form-w3-agile .person{
+	float: right;
+	margin-right: 30px;
+	margin-top:10px; 
+
+}
+.left-form-w3-agile .headbody1{
+
+	width: 33%; 
+	height: 100%; 
+	float: left;
+}
+.left-form-w3-agile .headbody2{
+	 width: 67%; 
+	 height:100%;  
+	 float: left;
+}
+.left-form-w3-agile input[type="text"], input[type="email"] {
+    outline: none;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 15px 10px;
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid #DCCBCF;
+    -webkit-appearance: none;
+    margin-bottom: 30px;
+    margin-left: 3px;
+    background: transparent;
+}
+ul{
+	display: none;
+	width: 90px;
+	padding: 0;
+	margin-left: 100px;
+	margin-top: 10px;
+	background: #124212;
+	list-style-type:none;
+	border-top:1px solid #DEE3E6;
+	text-align: center;
+}
+ul li{
+	height:20px;
+	line-height:20px;
+	vertical-align:top;
+}
+ul li a{
+	text-decoration: none;
+	display:block;
+	color:#6b7980;
+	background:#e9edf2;
+	padding:0 10px;
+}
+ul li a:hover{background:#fff;text-decoration:underline;}
+textarea {
+    outline: none;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 15px 10px;
+    margin-left: 3px;
+    width: 70%;
+    height: 79px;
+    border: none;
+    border-bottom: 1px solid #DCCBCF;
+    -webkit-appearance: none;
+    background: transparent;
+    resize: none;
+    font-family: 'Oxygen', sans-serif;
+    margin-bottom: 30px;
+}
+.upper {
+    padding: 31px 35px 77px;
+}
+.upper .form-sub-w3 .half{
+	width: 30%;
+}
+input[type="submit"] {
+    width: 100%;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    background: url(../templete/大概框架/images/send-mail.png)no-repeat 50% 50%;
+    border: none;
+    background-size: 40px;
+    cursor: pointer;
+    padding: 25px;
+    margin: 0 auto;
+}
+.submit-w3l{
+	background:rgb(83, 22, 30);
+	width:100%;
+	 transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.icon-w3 i {
+    color: #ffffff;
+    font-size: 16px;
+}
+.icon-w3 {
+    display: inline-block;
+    float: left;
+    line-height: 45px;
+    width: 18px;
+}
+@media(max-width:1366px){
+	.upper {
+		padding: 28px 35px 71px;
+	}
+	.left-form-w3-agile h2 {
+		margin: 55px 37px 0;
+	}
+	h1 {
+		font-size: 33px;
+		margin: 40px 0;
+	}
+	.social-icons-right ol li i {
+		font-size: 20px;
+	}
+	.right-map-w3-agile iframe {
+		min-height: 258px;
+	}
+	.left-form-w3-agile input[type="text"], input[type="email"] {
+		margin-bottom: 23px;
+	}
+	h3 {
+		margin: 14px 0px 18px;
+	}
+}
+	@media(max-width:1440px){
+	.main-agileits {
+		width: 61%;
+	}
+	.left-form-w3-agile input[type="text"], input[type="email"] {
+		margin-bottom: 25px;
+	}
+	.right-map-w3-agile ul li {
+		line-height: 23px;
+	}
+	input[type="submit"] {
+		background: url(../templete/大概框架/images/send-mail.png)no-repeat 50% 50%;
+		background-size: 38px;
+	}
+	.copyright p {
+		margin: 45px 0px;
+	}
+}
+@media(max-width:1080px){
+	.main-agileits {
+		width: 73%;
+	}
+	.left-form-w3-agile {
+		width: 54%;
+	}
+	.right-map-w3-agile {
+		width: 43%;
+	}
+	.right-map-w3-agile ul li {
+		width: 55%;
+	}
+	.left-form-w3-agile h2 {
+		margin: 50px 37px 0;
+	}
+	.upper {
+		padding: 23px 35px 63px;
+	}
+	.right-map-w3-agile iframe {
+		min-height: 241px;
+	}
+	h1 {
+		font-size: 30px;
+		margin: 33px 0;
+	}
+}
+@media(max-width:1280px){
+	.main-agileits {
+		width: 66%;
+	}
+	.copyright p {
+		margin: 40px 0px;
+	}
+	h1 {
+		font-size: 31px;
+		margin: 40px 0;
+	}
+	
+}
+@media(max-width:1050px){
+	.main-agileits {
+		width: 75%;
+	}
+	.left-form-w3-agile h2 {
+		font-size: 18px;
+	}
+	.right-map-w3-agile h2 {
+		font-size: 14px;
+	}
+	.right-map-w3-agile iframe {
+		min-height: 239px;
+	}
+}
+@media(max-width:1024px){
+	.main-agileits {
+		width: 77%;
+	}
+	.upper {
+		padding: 20px 33px 60px;
+	}
+	.left-form-w3-agile h2 {
+		margin: 50px 34px 0;
+	}
+	input[type="submit"] {
+		padding: 24px;
+	}
+	.right-map-w3-agile iframe {
+		min-height: 232px;
+	}
+	.copyright p {
+		font-size: 15px;
+	}
+	h3 {
+		font-size: 15px;
+	}
+	.right-map-w3-agile {
+		width: 43.5%;
+	}
+	.map-grid-right i {
+		bottom: 6em;
+		left: 3.5em;
+	}
+}
+@media(max-width:991px){
+	.main-agileits {
+		width: 78%;
+	}
+	.map-grid-right i {
+		bottom: 6.5em;
+		left: 3.5em;
+		font-size: 43px;
+	}
+	input[type="submit"] {
+		background: url(../templete/大概框架/images/send-mail.png)no-repeat 186px 12px;
+		background-size: 38px;
+	}
+}
+@media(max-width:900px){
+	.right-map-w3-agile ul li {
+		width: 62%;
+	}
+	.left-form-w3-agile {
+		width: 55%;
+	}
+	.left-form-w3-agile input[type="text"], input[type="email"] {
+		width: 87%;
+	}
+	textarea {
+		width: 87%;
+		height: 78px;
+	}
+	.main-agileits {
+		width: 79%;
+	}
+	.right-map-w3-agile ul {
+		padding: 10px 20px;
+	}
+	h3 {
+		margin: 12px 0px 13px;
+	}
+	input[type="submit"] {
+		padding: 21px;
+	}
+	input[type="submit"] {
+		background: url(../templete/大概框架/images/send-mail.png)no-repeat 175px 10px;
+		background-size: 36px;
+	}
+	.left-form-w3-agile h2 {
+		margin: 48px 35px 0;
+		font-size: 17px;
+	}
+	.social-icons-right ol li i {
+		font-size: 19px;
+	}
+	h1 {
+		font-size: 28px;
+		margin: 25px 0;
+	}
+	.map-grid-right i {
+		font-size: 41px;
+	}
+	.right-map-w3-agile h2 {
+		font-size: 13px;
+		padding: 9px 0px 9px 10px;
+	}
+	.upper {
+		padding: 12px 33px 58px;
+	}
+	.right-map-w3-agile iframe {
+		min-height: 226px;
+	}
+	.copyright p {
+		font-size: 14px;
+		margin: 25px 0px;
+	}
+}
+@media(max-width:800px){
+	.main-agileits {
+		width: 84%;
+	}
+	.upper {
+		padding: 12px 29px 54px;
+	}
+	.left-form-w3-agile input[type="text"], input[type="email"] {
+		width: 86%;
+	}
+	textarea {
+		width: 86%;
+		height: 75px;
+	}
+	.right-map-w3-agile ul li {
+		width: 66%;
+		line-height: 22px;
+	}
+	h1 {
+		font-size: 26px;
+		margin: 27px 0;
+	}
+	h3 {
+		font-size: 14px;
+		margin: 11px 0px 13px;
+	}
+	.copyright p {
+		margin: 27px 0px;
+	}
+}
+@media(max-width:736px){
+	.main-agileits {
+		width: 60%;
+	}
+	.left-form-w3-agile {
+		width: 100%;
+		float: none;
+	}
+	.right-map-w3-agile {
+		width: 100%;
+		float: none;
+		margin-top: 15px;
+	}
+	.left-form-w3-agile {
+		padding-top: 1px;
+	}
+	input[type="submit"] {
+		background: url(../templete/大概框架/images/send-mail.png)no-repeat 192px 10px;
+		background-size: 34px;
+	}
+	.right-map-w3-agile ul li {
+		width: 49%;
+		line-height: 24px;
+	}
+	.copyright p {
+		margin: 35px 0px;
+	}
+	.map-grid-right i {
+		left: 5.4em;
+	}
+	h1{
+	    letter-spacing: 3px;
+		word-spacing: 3px;
+	}
+}
+@media(max-width:640px){
+	input[type="submit"] {
+		background: url(../templete/大概框架/images/send-mail.png)no-repeat 171px 12px;
+		background-size: 30px;
+		    padding: 20px;
+	}
+	.main-agileits {
+		width: 65%;
+	}
+	
+}
+@media(max-width:568px){
+	h1 {
+		font-size: 23px;
+		margin: 40px 0;
+	}
+	.left-form-w3-agile h2 {
+		margin: 34px 35px 0;
+		font-size: 15px;
+	}
+	.left-form-w3-agile input[type="text"], input[type="email"] {
+		margin-bottom: 17px;
+	}
+	.upper {
+		padding: 12px 27px 50px;
+	}
+	.left-form-w3-agile input[type="text"], input[type="email"] {
+		width: 86%;
+	}
+	textarea {
+		width: 86%;
+		height: 66px;
+	}
+	input[type="submit"] {
+		background: url(../images/send-mail.png)no-repeat 161px 9px;
+		background-size: 30px;
+		padding: 18px;
+	}
+	.map-grid-right i {
+		left: 4.3em;
+		bottom: 7.5em;
+	}
+	.right-map-w3-agile ul li {
+		width: 56%;
+	}
+}
+@media(max-width:480px){
+	.main-agileits {
+		width: 75%;
+	}
+	input[type="submit"] {
+		background: url(../templete/大概框架/images/send-mail.png)no-repeat 154px 9px;
+		background-size: 30px;
+	}
+}
+@media(max-width:414px){
+	h1 {
+		letter-spacing: 2px;
+		word-spacing: 2px;
+	}
+	.main-agileits {
+		width: 87%;
+	}
+	.icon-w3 i {
+		color: #ffffff;
+		font-size: 15px;
+	}
+	.icon-w3 {
+		line-height: 44px;
+		width: 17px;
+	}
+	.map-grid-right i {
+		bottom: 7em;
+	}
+}
+@media(max-width:320px){
+	h1 {
+		font-size: 19px;
+		letter-spacing: 1px;
+		word-spacing: 1px;
+		margin: 25px 0;
+	}
+	.main-agileits {
+		width: 90%;
+	}
+	.upper {
+		padding: 9px 23px 46px;
+	}
+	.icon-w3 {
+		width: 16px;
+	}
+	.left-form-w3-agile input[type="text"], input[type="email"] {
+		width: 82%;
+	}
+	textarea {
+		width: 82%;
+	}
+	.left-form-w3-agile input[type="text"], input[type="email"] {
+		margin-bottom: 15px;
+	}
+	.left-form-w3-agile h2 {
+		margin: 29px 27px 0;
+		font-size: 14.4px;
+	}
+	input[type="submit"] {
+		background: url(../templete/大概框架/images/send-mail.png)no-repeat 123px 7px;
+		background-size: 27px;
+		padding: 14px;
+	}
+	.right-map-w3-agile ul li {
+		width: 72%;
+	}
+	.copyright p {
+		margin: 27px 24px;
+		line-height: 33px;
+		letter-spacing: 0px;
+	}
+	.right-map-w3-agile iframe {
+		min-height: 200px;
+	}
+	.map-grid-right i {
+		left: 3.3em;
+		bottom: 6.8em;
+	}
+}
